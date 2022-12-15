@@ -1,0 +1,129 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Lato',sans-serif ;
+}
+
+/* css of general class  */
+
+.container{
+    max-width: 1440px;
+
+}
+
+:root{
+    --dark_blue:#041422;
+    --light_blue:#144275;
+}
+
+body{
+    background-color: #e5eef4;
+}
+
+
+
+.search_page{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 20px;
+    width:100%;
+    background: linear-gradient(to top,var(--light_blue) 10%, var(--dark_blue) 50%, );
+    position: relative;
+  
+
+
+}
+
+.popular_filters{
+
+    margin-left:60px;
+    background-color: white;
+}
+
+.popular_filter_heading{
+    margin:10px 10px;
+}
+
+.popular_filter_heading h3{
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+  
+}
+
+.popular_filter_heading .filter_val{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.popular_filter_heading .filter_val label{
+    margin-left: 5px;
+    font-size: 0.9rem;
+}
+.popular_filter_heading .filter_val span{
+    margin-right: 5px;
+    font-size: 0.9rem;
+}
+
+.show{
+    color:blue;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.one_way_price{
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+#silver_bar{
+    height:5px;
+    background-color: rgb(211, 206, 206);
+    margin:10px 0;
+    margin-right: 10px;
+    border-radius: 10px;
+   
+}
+
+#blue_bar{
+    height:6px;
+    background-color: blue;
+    width:60%;
+    border-radius: 10px;
+}
+
+.rs_range{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+
+
+#range2{
+    margin-right: 10px;
+  
+}
+
+.back-top{
+    position: absolute;
+    background:green;
+    height: 20vh;
+    top:100px;
+    width:100vw;
+    z-index: -1;
+
+
+   }
+
+
+
+.flight_details{
+    border:2px solid green;
+    margin-right:60px;
+    
+}
