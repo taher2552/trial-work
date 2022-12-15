@@ -24,14 +24,13 @@ body{
 
 
 .search_page{
-    padding-top: 100px;
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 30% 70%;
     column-gap: 20px;
     width:100%;
     background: linear-gradient(to top,var(--light_blue) 10%, var(--dark_blue) 50%, );
-    position: relative;
-  
+
 
 
 }
@@ -46,26 +45,37 @@ body{
     margin:10px 10px;
 }
 
+.popular_airlines{
+    margin:10px 10px;
+    
+}
+
+.popular_airlines h3{
+    margin-bottom: 20px;
+}
+
 .popular_filter_heading h3{
     margin-bottom: 20px;
     font-size: 1.1rem;
   
 }
 
-.popular_filter_heading .filter_val{
+.search_page .filter_val{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     margin-bottom: 10px;
 
 }
 
-.popular_filter_heading .filter_val label{
+.search_page .filter_val label{
     margin-left: 5px;
     font-size: 0.9rem;
+
 }
-.popular_filter_heading .filter_val span{
+.search_page .filter_val span{
     margin-right: 5px;
     font-size: 0.9rem;
+
 }
 
 .show{
@@ -80,12 +90,18 @@ body{
     font-size: 1rem;
 }
 
+.one_way_price h3{
+
+    margin-bottom: 20px;
+}
+
 #silver_bar{
     height:5px;
     background-color: rgb(211, 206, 206);
     margin:10px 0;
     margin-right: 10px;
     border-radius: 10px;
+    margin-bottom: 20px;
    
 }
 
@@ -94,6 +110,7 @@ body{
     background-color: blue;
     width:60%;
     border-radius: 10px;
+
 }
 
 .rs_range{
@@ -120,6 +137,65 @@ body{
 
    }
 
+
+.first_stops{
+    margin:10px 10px;
+
+}
+
+.first_stops h3{
+    margin-bottom: 20px;
+}
+
+
+
+
+.depart_time{
+    margin:10px 10px;
+}
+
+.depart_for_flex{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin:10px 10px; */
+}
+
+.time_icon{
+    border:1px solid rgb(211, 206, 206);
+    border-radius: 5px;
+}
+
+.time_icon{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:30%;
+    height: 14vh;
+}
+
+.time_icon1{
+    margin-left: 0;
+}
+
+
+
+.time_icon p{
+    font-size: 0.65rem;
+    margin-bottom: 15px;
+}
+
+
+
+.time_icon img{
+    height:30px;
+    width:30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
 
 .flight_details{
