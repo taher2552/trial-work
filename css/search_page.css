@@ -21,10 +21,10 @@ body{
     background-color: #e5eef4;
 }
 
-
+/* side bar section css start here  */
 
 .search_page{
-    margin-top: 100px;
+    margin-top: 150px;
     display: grid;
     grid-template-columns: 30% 70%;
     column-gap: 20px;
@@ -126,16 +126,7 @@ body{
   
 }
 
-.back-top{
-    position: absolute;
-    background:green;
-    height: 20vh;
-    top:100px;
-    width:100vw;
-    z-index: -1;
 
-
-   }
 
 
 .first_stops{
@@ -197,9 +188,49 @@ body{
     margin-bottom: 5px;
 }
 
+.back_top{
+    background-image: linear-gradient(180deg, var(--dark_blue), var(--light_blue));
+    height: 40vh;
+    position:absolute;
+    width:100%;
+    z-index:-1;
+    bottom:320px;
+   }
+   
+
+/* sidebar section ends here  */
+
+/* search result section start here  */
 
 .flight_details{
-    border:2px solid green;
+    /* border:2px solid green; */
     margin-right:60px;
     
+}
+
+.flight_details h2{
+    color:white;
+    font-size: 1.5rem;
+}
+
+.my_safety{
+    display: flex;
+    padding:20px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.my_safety img{
+    height:40px;
+    width:40px;
+}
+
+.my_safety p{
+    margin-top: 5px;
+    font-size: 0.73rem;
+}
+
+.side_margin{
+    margin-left:10px
 }
